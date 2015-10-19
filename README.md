@@ -5,6 +5,7 @@ Foreign Data Wrapper (FDW) that facilitates access to Cassandra > 2.0 from withi
 
 1. Installation:
 	a) Install (http://downloads.datastax.com/cpp-driver/) or build (https://datastax.github.io/cpp-driver/topics/building/) DataStax Cassandra driver for C/C++.
+
 	b) Build postgresql extension
 
 After install:
