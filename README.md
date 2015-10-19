@@ -1,9 +1,11 @@
 cassandra2_fdw
 ==============
 
-Foreign Data Wrapper (FDW) that facilitates access to Cassandra 2.x from within PostgreSQL 9.4.
+Foreign Data Wrapper (FDW) that facilitates access to Cassandra > 2.0 from within PostgreSQL > 9.3.
 
-Before install this extension, Cassandra2 cpp driver need be installed (https://github.com/datastax/cpp-driver).
+1. Installation:
+	a) Install (http://downloads.datastax.com/cpp-driver/) or build (https://datastax.github.io/cpp-driver/topics/building/) DataStax Cassandra driver for C/C++.
+	b) Build postgresql extension
 
 After install:
 *) Enter psql & Set up cassandra_fdw extension.
