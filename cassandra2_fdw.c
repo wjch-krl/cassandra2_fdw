@@ -729,7 +729,7 @@ cassBeginForeignScan(ForeignScanState *node, int eflags) {
             // snprintf(query, len, "SELECT * FROM %s", svr_table);
         // }
 		
-		fdw_private = fsplan->fdw_private;
+	fdw_private = fsplan->fdw_private;
         query = strVal(list_nth(fdw_private, CassFdwScanPrivateSelectSql));
 
         ereport(WARNING,
