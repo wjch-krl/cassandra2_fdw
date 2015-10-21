@@ -25,8 +25,8 @@
 #include "utils/rel.h"
 
 /* in cass_connection.c */
-extern CassSession *pgcass_GetConnection(ForeignServer *server, UserMapping *user,
-			  bool will_prep_stmt);
-extern void pgcass_ReleaseConnection(CassSession *session);
+extern CassSession *pgcass_GetConnection (ForeignServer *server, UserMapping *user,
+                                          bool will_prep_stmt);
+extern void pgcass_ReleaseConnection (CassSession *session);
 
 #endif /* CASSANDRA2_FDW_H_ */
